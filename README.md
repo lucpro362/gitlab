@@ -1,2 +1,0 @@
-# gitlab
- javascript git

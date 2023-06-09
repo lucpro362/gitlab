@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light sticky">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Trang chủ</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Di động</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tai nghe</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div>
+      <h1>Ipod</h1>
+      <form action="">
+          <p>Sản phẩm</p>
+          <input id="productName" type="text">
+          <p>Giá</p>
+          <input id="productPrice" type="text">
+          <button type="button" id="createProduct">Thêm sản phẩm</button>
+          <button type="button" id="updateProduct"></button>
+          
+
+      </form>
+  </div>
+  <p id="error"></p>
+
+  <h1>Danh sach san pham</h1>
+
+  <table>
+      <tr>
+          <th>Số thứ tự</th>
+          <th>Hình ảnh sản phảm</th>
+          <th>Tên</th>
+          <th>Giá</th>
+          <th>Thao tác</th>
+      </tr>
+      <tbody id="productList">
+          
+      </tbody>
+  </table>
+  </body>
+  <script src="./js/product.js"></script>
+
+</html>
